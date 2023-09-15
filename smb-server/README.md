@@ -16,7 +16,7 @@ pip3 install impacket
 -  **Go and download smb_server.py**
 
 
-Make sure to replace /path/to/shared/folder with the actual path to the share directory of your SMB server.
+Replace 'ShareName' with the desired name for the shared folder and '/path/to/shared/folder' with the actual path to the directory you want to share.
 
 ## How it Works
 The SMB server is implemented in Python using the impacket.smbserver.SimpleSMBServer class. It handles client connections, logins, and file sharing.
