@@ -3,7 +3,7 @@
 #pip3 install tftpy
 from tftpy import TftpServer
 
-server = TftpServer('/opt/nobody')
+server = TftpServer('/path/to/tftp/root')
 
 try:
     server.listen('0.0.0.0', 69)
