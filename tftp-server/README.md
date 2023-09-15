@@ -16,7 +16,7 @@ pip3 install tftpy
 Go and download tftp_server.py
 ```
 
-Make sure to replace /path/to/tftp/root with the actual path to the root directory of your TFTP server.
+Make sure to replace /path/to/tftp/root with the actual path to the share directory of your TFTP server.
 
 ## How it Works
 This TFTP server listens on port 69 for incoming TFTP requests. It serves files from the specified root directory. Clients can use TFTP to read or write files to the server.
