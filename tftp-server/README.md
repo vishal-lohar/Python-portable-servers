@@ -13,7 +13,7 @@ pip3 install tftpy
 ```
 ## Installation
 ```
-wget https://github.com/vishal-lohar/Python-portable-servers/blob/main/tftp-server/tftp_server.py
+Go and download tftp_server.py
 ```
 
 Make sure to replace /path/to/tftp/root with the actual path to the root directory of your TFTP server.
