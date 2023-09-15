@@ -13,7 +13,7 @@ pip3 install tftpy
 ```
 ## Installation
 
-### Go and download tftp_server.py
+** Go and download tftp_server.py **
 
 
 Make sure to replace /path/to/tftp/root with the actual path to the share directory of your TFTP server.
