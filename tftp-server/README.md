@@ -18,6 +18,16 @@ Go and download tftp_server.py
 
 Make sure to replace /path/to/tftp/root with the actual path to the root directory of your TFTP server.
 
+## CMD For Linux
+**Upload a File**
+```
+tftp <server_ip> -c put <local_file> <remote_file>
+```
+#### Download a File
+```
+ tftp <server_ip> -c get <remote_file> <local_file>
+```
+
 ## How it Works
 This TFTP server listens on port 69 for incoming TFTP requests. It serves files from the specified root directory. Clients can use TFTP to read or write files to the server.
 
