@@ -18,6 +18,8 @@ pip3 install pyftpdlib
 
 Modify User Credentials and Directory
 ```
+# Autonomous authentication enable 
+# Authentication also enable
 # Default Credentials
 user = "user"
 password = "12345"
