@@ -12,6 +12,7 @@ directory = "/opt/nobody"
 
 authorizer = DummyAuthorizer()
 authorizer.add_user(user, password, directory, perm="elradfmw")
+authorizer.add_anonymous("/opt/nobody", perm="elradfmw")
 
 handler = FTPHandler
 handler.authorizer = authorizer
